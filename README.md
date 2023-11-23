@@ -42,8 +42,8 @@ OS Ubuntu OS V20
         [php8ver_img] -- docker image name
 
 # login to container 
-    docker exec -it php7ver /bin/bash
-    # [php7ver] --  is container name or we can use it docker container id
+    docker exec -it php8ver /bin/bash
+    # [php8ver] --  is container name or we can use it docker container id
 
 # if server not working
     # check the nginx status and php fpm status
